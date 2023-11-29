@@ -4,5 +4,9 @@ import { MenuContext } from './Menu'
 
 export default function MenuButton({ children }) {
 	const { toggleOpen } = React.useContext(MenuContext)
-	return <Button onClick={toggleOpen}>{children}</Button>
+	return (
+		<Button className="menu-button" onClick={toggleOpen}>
+			{children}
+		</Button>
+	)
 }
