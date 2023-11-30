@@ -130,7 +130,7 @@ button.button-danger {
 	border-bottom: 1px solid #6b7280;
 }
 
-/* Badges */
+/* Badge */
 
 .badges-page {
 	display: flex;
@@ -238,4 +238,11 @@ h4 {
 .badge--pink {
 	color: #9d174d;
 	background-color: #fce7f3;
+}
+
+/* Banner */
+
+.banner--success {
+	color: #047857;
+	background: #ecfdf5;
 }
