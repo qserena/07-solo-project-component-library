@@ -37,6 +37,17 @@ h2 {
 	padding: 0;
 }
 
+h4 {
+	font-family: 'Inter', sans-serif;
+	font-size: 0.88rem;
+	font-weight: 500;
+	line-height: 1.25em;
+}
+
+.banner--error h4 {
+	font-weight: 700;
+}
+
 p {
 	margin-top: 0;
 }
@@ -185,13 +196,6 @@ button.button-danger {
 	background: #f3f4f6;
 }
 
-h4 {
-	font-family: 'Inter', sans-serif;
-	font-size: 0.88rem;
-	font-weight: 500;
-	line-height: 1.25em;
-}
-
 .badge--square {
 	border-radius: 0.25em;
 }
@@ -242,6 +246,12 @@ h4 {
 
 /* Banner */
 
+.banner {
+	text-align: left;
+	font-size: 0.88rem;
+	border-radius: 0.38em;
+}
+
 .banner--success {
 	color: #047857;
 	background: #ecfdf5;
@@ -266,4 +276,6 @@ h4 {
 	display: grid;
 	grid-template-columns: 100px 1fr 1fr;
 	grid-template-rows: repeat(auto, 5);
+	gap: 20px;
+	margin: 0 30px;
 }
