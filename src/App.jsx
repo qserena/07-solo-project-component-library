@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import Menu from './components/Menu/index.js'
-import BadgePage from './components/Badges/BadgePage.jsx'
+import BadgesPage from './pages/BadgesPage.jsx'
 
 function App() {
 	const [page, setPage] = useState(0)
@@ -22,12 +22,7 @@ function App() {
 				</div>
 			)}
 
-			{page === 1 && (
-				<div>
-					<h1>Badges</h1>
-					<BadgePage />
-				</div>
-			)}
+			{page === 1 && <BadgesPage />}
 
 			{page === 2 && (
 				<div>
