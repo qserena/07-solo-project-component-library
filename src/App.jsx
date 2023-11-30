@@ -18,7 +18,7 @@ function App() {
 			{page === 0 && (
 				<div>
 					<h1>React Component Library</h1>
-					<p>Select component from the menu at the left</p>
+					<p>Click Button and Select Component!</p>
 				</div>
 			)}
 
