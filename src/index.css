@@ -120,3 +120,37 @@ button.button-danger {
 .menu-item:not(:last-child) {
 	border-bottom: 1px solid #6b7280;
 }
+
+/* Badges */
+
+.badge-page {
+	display: flex;
+	flex-direction: column;
+}
+
+.shape-container {
+}
+
+.badge {
+	display: inline-flex;
+	padding: 2px 12px;
+	margin: 2px 8px;
+	justify-content: center;
+	align-items: center;
+	background: #f3f4f6;
+}
+
+h4 {
+	font-family: 'Inter', sans-serif;
+	font-size: 0.88rem;
+	font-weight: 500;
+	line-height: 1.25em;
+}
+
+.badge--square {
+	border-radius: 4px;
+}
+
+.badge--pill {
+	border-radius: 12px;
+}
