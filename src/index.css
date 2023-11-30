@@ -34,7 +34,7 @@ h2 {
 	font-family: 'Permanent Marker', sans-serif;
 	font-size: 1.25rem;
 	text-align: right;
-	text-align-last: justify;
+	padding: 0;
 }
 
 p {
@@ -139,15 +139,26 @@ button.button-danger {
 
 .badge--shape-container {
 	display: flex;
-	margin-bottom: 1em;
+	justify-content: start;
+	align-items: end;
+	flex-wrap: wrap;
+	margin-bottom: 1.2em;
 }
 
 .badge--shape-text {
-	/* display: inline-block; */
+	display: flex;
+	flex-direction: column;
+	justify-content: end;
+	align-items: end;
+
+	height: 40px;
 	width: 100px;
-	text-align: right;
 	margin-right: 20px;
-	background-color: red;
+	padding-bottom: 0px;
+}
+
+.badge--shape-text h2 {
+	margin-bottom: auto;
 }
 
 .badge--container {
@@ -160,6 +171,7 @@ button.button-danger {
 .badge--color-text {
 	color: gray;
 	font-size: 0.7rem;
+	margin-top: 1em;
 	margin-bottom: 0.1em;
 }
 

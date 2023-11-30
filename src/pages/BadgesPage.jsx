@@ -47,14 +47,30 @@ export default function BadgePage() {
 				<span className="badge--shape-text">
 					<h2>Pill</h2>
 				</span>
-				<Badge text="Badge" color="gray" shape="pill" />
-				<Badge text="Badge" color="red" shape="pill" />
-				<Badge text="Badge" color="yellow" shape="pill" />
-				<Badge text="Badge" color="green" shape="pill" />
-				<Badge text="Badge" color="blue" shape="pill" />
-				<Badge text="Badge" color="indigo" shape="pill" />
-				<Badge text="Badge" color="purple" shape="pill" />
-				<Badge text="Badge" color="pink" shape="pill" />
+				<div className="badge--container">
+					<Badge text="Badge" color="gray" shape="pill" />
+				</div>
+				<div className="badge--container">
+					<Badge text="Badge" color="red" shape="pill" />
+				</div>
+				<div className="badge--container">
+					<Badge text="Badge" color="yellow" shape="pill" />
+				</div>
+				<div className="badge--container">
+					<Badge text="Badge" color="green" shape="pill" />
+				</div>
+				<div className="badge--container">
+					<Badge text="Badge" color="blue" shape="pill" />
+				</div>
+				<div className="badge--container">
+					<Badge text="Badge" color="indigo" shape="pill" />
+				</div>
+				<div className="badge--container">
+					<Badge text="Badge" color="purple" shape="pill" />
+				</div>
+				<div className="badge--container">
+					<Badge text="Badge" color="pink" shape="pill" />
+				</div>
 			</div>
 		</div>
 	)
