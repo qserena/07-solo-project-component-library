@@ -246,3 +246,24 @@ h4 {
 	color: #047857;
 	background: #ecfdf5;
 }
+
+.banner--warning {
+	color: #92400e;
+	background: #fffbeb;
+}
+
+.banner--error {
+	color: #92400e;
+	background: #fef2f2;
+}
+
+.banner--neutral {
+	color: #1e40af;
+	background: #eff6ff;
+}
+
+.banner--container {
+	display: grid;
+	grid-template-columns: 100px 1fr 1fr;
+	grid-template-rows: repeat(auto, 5);
+}

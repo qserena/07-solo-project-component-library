@@ -7,18 +7,69 @@ export default function BannersPage() {
 
 			<div className="banner--container">
 				<span className="badge--shape-text">
-					<h2>Square</h2>
+					<h2></h2>
 				</span>
+
+				<h2>Multi Line</h2>
+
+				<h2>Single Line</h2>
+
+				<span className="badge--shape-text">
+					<h2>Success</h2>
+				</span>
+
 				<div className="badge--container">
-					<p className="badge--color-text">Gray</p>
 					<Banner title="Congratulations!" variant="success">
 						Lorem ipsum dolor sit amet consectetur adipisicing elit.
 						Aliquid pariatur, ipsum similique veniam.
 					</Banner>
 				</div>
 				<div className="badge--container">
-					<p className="badge--color-text">Red</p>
 					<Banner title="Congratulations!" variant="success" />
+				</div>
+
+				<h2>Warning</h2>
+
+				<div className="badge--container">
+					<Banner title="Attention" variant="warning">
+						Lorem ipsum dolor sit amet consectetur adipisicing elit.
+						Aliquid pariatur, ipsum similique veniam quo totam eius
+						aperiam dolorum.
+					</Banner>
+				</div>
+				<div className="badge--container">
+					<Banner title="Attention" variant="warning" />
+				</div>
+
+				<h2>Error</h2>
+
+				<div className="badge--container">
+					<Banner
+						title="There is a problem with your application"
+						variant="error"
+					>
+						Lorem ipsum dolor sit amet consectetur adipisicing elit.
+						Aliquid pariatur, ipsum similique veniam quo totam eius
+						aperiam dolorum.
+					</Banner>
+				</div>
+				<div className="badge--container">
+					<Banner
+						title="There is a problem with your application"
+						variant="error"
+					/>
+				</div>
+
+				<h2>Neutral</h2>
+
+				<div className="badge--container">
+					<Banner title="Update available" variant="neutral">
+						Lorem ipsum dolor sit amet consectetur adipisicing elit.
+						Aliquid pariatur, ipsum similique veniam.
+					</Banner>
+				</div>
+				<div className="badge--container">
+					<Banner title="Update available" variant="neutral" />
 				</div>
 				{/* <div className="badge--container">
 					<p className="badge--color-text">Yellow</p>
