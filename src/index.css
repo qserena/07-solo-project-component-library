@@ -383,3 +383,10 @@ button.button-danger {
 	font-weight: 400;
 	line-height: 1.5em;
 }
+
+@media (max-width: 800px) {
+	.card--container {
+		grid-template-columns: auto;
+		grid-template-rows: repeat(auto, 4);
+	}
+}
