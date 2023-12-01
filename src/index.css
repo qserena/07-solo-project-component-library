@@ -394,7 +394,6 @@ button.button-danger {
 /* Testimonials */
 
 .testimonials-page {
-	/* background-image: url('./assets/christina-small.png'); */
 	display: flex;
 	flex-direction: column;
 	justify-content: start;
@@ -417,7 +416,6 @@ button.button-danger {
 	color: #111827;
 	background: #f9fafb;
 	text-align: center;
-	/* font-size: 1.5rem; */
 	font-size: 24px;
 	font-weight: 500;
 	line-height: 36px; /* 150% */
@@ -427,8 +425,9 @@ button.button-danger {
 	width: 344px;
 	height: 206px;
 	border-radius: 12px;
-	background: url('./assets/christina-small.png'),
-		lightgray 0px -102.737px / 100% 250.485% no-repeat;
+	background: url('./assets/christina-small.png');
+	background-size: cover;
+	background-repeat: no-repeat;
 	box-shadow: 0px 10px 10px -5px rgba(0, 0, 0, 0.04),
 		0px 20px 25px -5px rgba(0, 0, 0, 0.1);
 
@@ -441,14 +440,13 @@ button.button-danger {
 
 @media (width > 900px) {
 	.testimonial--picture {
-		background: url('./assets/christina.png'),
-			lightgray 0px -56px / 100% 124.138% no-repeat;
+		background: url('./assets/christina.png');
 		width: 384px;
 		height: 464px;
 
 		top: 0;
 		bottom: 0;
-		left: 64px;
+		left: 50px;
 		right: 0;
 		margin: auto 0;
 	}
