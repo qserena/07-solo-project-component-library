@@ -409,6 +409,8 @@ button.button-danger {
 	font-style: normal;
 	font-weight: 500;
 	line-height: 32px; /* 133.333% */
+
+	position: relative;
 }
 
 .testimonial {
@@ -425,15 +427,29 @@ button.button-danger {
 	width: 344px;
 	height: 206px;
 	border-radius: 12px;
-	background: url('./assets/christina-small.png') no-repeat;
+	background: url('./assets/christina-small.png'),
+		lightgray 0px -102.737px / 100% 250.485% no-repeat;
 	box-shadow: 0px 10px 10px -5px rgba(0, 0, 0, 0.04),
 		0px 20px 25px -5px rgba(0, 0, 0, 0.1);
+
+	position: absolute;
+	top: -103px;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
 }
 
 @media (width > 900px) {
 	.testimonial--picture {
-		background: url('./assets/christina.png') no-repeat;
+		background: url('./assets/christina.png'),
+			lightgray 0px -56px / 100% 124.138% no-repeat;
 		width: 384px;
 		height: 464px;
+
+		top: 0;
+		bottom: 0;
+		left: 64px;
+		right: 0;
+		margin: auto 0;
 	}
 }
