@@ -6,17 +6,13 @@ export default function BannersPage() {
 			<h1>Banners</h1>
 
 			<div className="banner--container">
-				<span className="badge--shape-text">
-					<h2></h2>
-				</span>
+				<h2></h2>
 
-				<h2 className="left-align">Multi Line</h2>
+				<h2 className="banner--column-header">Multi Line</h2>
 
-				<h2 className="left-align">Single Line</h2>
+				<h2 className="banner--column-header">Single Line</h2>
 
-				<span className="badge--shape-text">
-					<h2>Success</h2>
-				</span>
+				<h2>Success</h2>
 				<div>
 					<Banner title="Congratulations!" severity="success">
 						Lorem ipsum dolor sit amet consectetur adipisicing elit.

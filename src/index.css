@@ -46,10 +46,6 @@ h2 {
 	padding: 0;
 }
 
-h2.left-align {
-	text-align: left;
-}
-
 h4 {
 	font-family: 'Inter', sans-serif;
 	font-size: 0.88rem;
@@ -174,7 +170,6 @@ button.button-danger {
 	flex-direction: column;
 	justify-content: end;
 	align-items: end;
-
 	height: 40px;
 	width: 100px;
 	margin-right: 20px;
@@ -276,6 +271,11 @@ button.button-danger {
 
 .banner--single-line {
 	gap: 0 0.75em;
+}
+
+.banner--column-header {
+	text-align: left;
+	margin-bottom: 0;
 }
 
 .banner--success {
