@@ -2,6 +2,7 @@ import { useState } from 'react'
 import Menu from './components/Menu/index.js'
 import BadgesPage from './pages/BadgesPage.jsx'
 import BannersPage from './pages/BannersPage.jsx'
+import CardsPage from './pages/CardsPage.jsx'
 
 function App() {
 	const [page, setPage] = useState(0)
@@ -12,7 +13,7 @@ function App() {
 				<Menu.Dropdown>
 					<Menu.Item onClick={() => setPage(1)}>Badges</Menu.Item>
 					<Menu.Item onClick={() => setPage(2)}>Banners</Menu.Item>
-					<Menu.Item>Cards</Menu.Item>
+					<Menu.Item onClick={() => setPage(3)}>Cards</Menu.Item>
 					<Menu.Item>Testimonials</Menu.Item>
 				</Menu.Dropdown>
 			</Menu>
@@ -26,6 +27,8 @@ function App() {
 			{page === 1 && <BadgesPage />}
 
 			{page === 2 && <BannersPage />}
+
+			{page === 3 && <CardsPage />}
 		</main>
 	)
 }
