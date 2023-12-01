@@ -394,8 +394,46 @@ button.button-danger {
 /* Testimonials */
 
 .testimonials-page {
+	/* background-image: url('./assets/christina-small.png'); */
 	display: flex;
 	flex-direction: column;
 	justify-content: start;
 	align-items: start;
+	font-family: 'Inter', sans-serif;
+}
+
+.testimonial--with-pic {
+	color: #fff;
+	background: #2545b8;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 32px; /* 133.333% */
+}
+
+.testimonial {
+	color: #111827;
+	background: #f9fafb;
+	text-align: center;
+	/* font-size: 1.5rem; */
+	font-size: 24px;
+	font-weight: 500;
+	line-height: 36px; /* 150% */
+}
+
+.testimonial--picture {
+	width: 344px;
+	height: 206px;
+	border-radius: 12px;
+	background: url('./assets/christina-small.png') no-repeat;
+	box-shadow: 0px 10px 10px -5px rgba(0, 0, 0, 0.04),
+		0px 20px 25px -5px rgba(0, 0, 0, 0.1);
+}
+
+@media (width > 900px) {
+	.testimonial--picture {
+		background: url('./assets/christina.png') no-repeat;
+		width: 384px;
+		height: 464px;
+	}
 }

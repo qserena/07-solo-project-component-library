@@ -1,11 +1,6 @@
 import TestimonialWithPic from '../components/Testimonials/TestimonialWithPic.jsx'
 import Testimonial from '../components/Testimonials/Testimonial.jsx'
-import {
-	HiOutlineCloudUpload,
-	HiOutlineCurrencyDollar,
-	HiFingerPrint,
-	HiCake,
-} from 'react-icons/hi'
+import pic from '../assets/christina.png'
 
 export default function TestimonialsPage() {
 	return (
@@ -17,23 +12,21 @@ export default function TestimonialsPage() {
 				displays.
 			</p>
 
+			<h2 className="banner--column-header">With Pic</h2>
+
 			<TestimonialWithPic
-				title="Easy Deployment"
-				icon={<HiOutlineCloudUpload className="card--icon-size" />}
-				iconColor="#3F75FE"
-			>
-				Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus.
-				Et magna sit morbi lobortis.
-			</TestimonialWithPic>
+				quote="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed urna nulla vitae laoreet augue. Amet feugiat est integer dolor auctor adipiscing nunc urna, sit."
+				name="May Andersons"
+				role="Workcation, CTO"
+			/>
+
+			<h2 className="banner--column-header">No Pic </h2>
 
 			<Testimonial
-				title="Cash Is King"
-				icon={<HiOutlineCurrencyDollar className="card--icon-size" />}
-				iconColor="limegreen"
-			>
-				Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus.
-				Et magna sit morbi lobortis.
-			</Testimonial>
+				quote="Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo expedita voluptas culpa sapiente alias molestiae. Numquam corrupti in laborum sed rerum et corporis."
+				name="May Andersons"
+				role="Workcation, CTO"
+			/>
 		</div>
 	)
 }
