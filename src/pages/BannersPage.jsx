@@ -1,4 +1,4 @@
-import Banner from '../components/Banners/Banner.jsx'
+import Banner from '../components/Banner/Banner.jsx'
 
 export default function BannersPage() {
 	return (
@@ -17,48 +17,59 @@ export default function BannersPage() {
 				<span className="badge--shape-text">
 					<h2>Success</h2>
 				</span>
+				<div>
+					<Banner title="Congratulations!" variant="success">
+						Lorem ipsum dolor sit amet consectetur adipisicing elit.
+						Aliquid pariatur, ipsum similique veniam.
+					</Banner>
+				</div>
 
-				<Banner title="Congratulations!" variant="success">
-					Lorem ipsum dolor sit amet consectetur adipisicing elit.
-					Aliquid pariatur, ipsum similique veniam.
-				</Banner>
-
-				<Banner title="Congratulations!" variant="success" />
+				<div>
+					<Banner title="Congratulations!" variant="success" />
+				</div>
 
 				<h2>Warning</h2>
-
-				<Banner title="Attention" variant="warning">
-					Lorem ipsum dolor sit amet consectetur adipisicing elit.
-					Aliquid pariatur, ipsum similique veniam quo totam eius
-					aperiam dolorum.
-				</Banner>
-
-				<Banner title="Attention" variant="warning" />
+				<div>
+					<Banner title="Attention" variant="warning">
+						Lorem ipsum dolor sit amet consectetur adipisicing elit.
+						Aliquid pariatur, ipsum similique veniam quo totam eius
+						aperiam dolorum.
+					</Banner>
+				</div>
+				<div>
+					<Banner title="Attention" variant="warning" />
+				</div>
 
 				<h2>Error</h2>
+				<div>
+					<Banner
+						title="There is a problem with your application"
+						variant="error"
+					>
+						Lorem ipsum dolor sit amet consectetur adipisicing elit.
+						Aliquid pariatur, ipsum similique veniam quo totam eius
+						aperiam dolorum.
+					</Banner>
+				</div>
 
-				<Banner
-					title="There is a problem with your application"
-					variant="error"
-				>
-					Lorem ipsum dolor sit amet consectetur adipisicing elit.
-					Aliquid pariatur, ipsum similique veniam quo totam eius
-					aperiam dolorum.
-				</Banner>
-
-				<Banner
-					title="There is a problem with your application"
-					variant="error"
-				/>
+				<div>
+					<Banner
+						title="There is a problem with your application"
+						variant="error"
+					/>
+				</div>
 
 				<h2>Neutral</h2>
+				<div>
+					<Banner title="Update available" variant="neutral">
+						Lorem ipsum dolor sit amet consectetur adipisicing elit.
+						Aliquid pariatur, ipsum similique veniam.
+					</Banner>
+				</div>
 
-				<Banner title="Update available" variant="neutral">
-					Lorem ipsum dolor sit amet consectetur adipisicing elit.
-					Aliquid pariatur, ipsum similique veniam.
-				</Banner>
-
-				<Banner title="Update available" variant="neutral" />
+				<div>
+					<Banner title="Update available" variant="neutral" />
+				</div>
 			</div>
 		</div>
 	)
