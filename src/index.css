@@ -26,6 +26,15 @@ h1 {
 	font-family: 'Permanent Marker', sans-serif;
 	font-size: 2.75rem;
 	margin-bottom: 0.5em;
+	text-align: left;
+}
+
+.badges-page h1 {
+	margin-left: 130px;
+}
+
+.banners-page h1 {
+	margin-left: 150px;
 }
 
 h2 {
@@ -35,6 +44,10 @@ h2 {
 	font-size: 1.25rem;
 	text-align: right;
 	padding: 0;
+}
+
+h2.left-align {
+	text-align: left;
 }
 
 h4 {
@@ -248,8 +261,21 @@ button.button-danger {
 
 .banner {
 	text-align: left;
+	align-self: start;
+	display: grid;
+	grid-template-columns: auto 1fr;
+	grid-template-rows: auto auto;
+	padding: 1em;
 	font-size: 0.88rem;
 	border-radius: 0.38em;
+}
+
+.banner--multi-line {
+	gap: 0.5em 0.75em;
+}
+
+.banner--single-line {
+	gap: 0 0.75em;
 }
 
 .banner--success {
@@ -270,6 +296,19 @@ button.button-danger {
 .banner--neutral {
 	color: #1e40af;
 	background: #eff6ff;
+}
+
+.banner img {
+	align-self: center;
+}
+
+.banner h4 {
+	margin: 0;
+	align-self: center;
+}
+
+.banner p {
+	margin: 0;
 }
 
 .banner--container {
