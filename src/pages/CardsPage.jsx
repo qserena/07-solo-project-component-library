@@ -26,7 +26,7 @@ export default function CardsPage() {
 					icon={
 						<HiOutlineCurrencyDollar className="card--icon-size" />
 					}
-					iconColor="green"
+					iconColor="limegreen"
 				>
 					Ac tincidunt sapien vehicula erat auctor pellentesque
 					rhoncus. Et magna sit morbi lobortis.

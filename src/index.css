@@ -390,3 +390,12 @@ button.button-danger {
 		grid-template-rows: repeat(auto, 4);
 	}
 }
+
+/* Testimonials */
+
+.testimonials-page {
+	display: flex;
+	flex-direction: column;
+	justify-content: start;
+	align-items: start;
+}
