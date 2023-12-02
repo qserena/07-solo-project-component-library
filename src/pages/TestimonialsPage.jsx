@@ -1,6 +1,5 @@
 import TestimonialWithPic from '../components/Testimonials/TestimonialWithPic.jsx'
 import Testimonial from '../components/Testimonials/Testimonial.jsx'
-import pic from '../assets/christina.png'
 
 export default function TestimonialsPage() {
 	return (
@@ -20,7 +19,7 @@ export default function TestimonialsPage() {
 				role="Workcation, CTO"
 			/>
 
-			<h2 className="banner--column-header">No Pic </h2>
+			<h2 className="banner--column-header">No Pic</h2>
 
 			<Testimonial
 				quote="Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo expedita voluptas culpa sapiente alias molestiae. Numquam corrupti in laborum sed rerum et corporis."

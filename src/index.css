@@ -399,20 +399,27 @@ button.button-danger {
 	justify-content: start;
 	align-items: start;
 	font-family: 'Inter', sans-serif;
-	margin: 0 20px 0 20px;
+	margin: 0 20px 20px 20px;
 }
 
-.testimonial--with-pic {
+.testimonial-with-pic {
 	color: #fff;
 	background: #2545b8;
 	position: relative;
 	margin-top: 110px;
+	margin-bottom: 50px;
 }
 
 .testimonial {
 	color: #111827;
 	background: #f9fafb;
 	text-align: center;
+	margin-top: 30px;
+	padding: 74px 16px;
+	background-image: url('./assets/pattern.svg');
+	background-repeat: no-repeat;
+	background-position-x: 0;
+	background-position-y: 300px;
 }
 
 .testimonial--picture {
@@ -431,9 +438,15 @@ button.button-danger {
 	margin: 0 auto;
 }
 
-.testimonial--text-container {
+.testimonial-with-pic--text-container {
 	text-align: left;
 	margin: 100px 16px 64px 16px;
+}
+
+.testimonial--text-container {
+	text-align: left;
+	margin-top: 40px;
+	position: relative;
 }
 
 .testimonial--quote {
@@ -456,16 +469,26 @@ button.button-danger {
 	line-height: 24px;
 }
 
+.testimonial .testimonial--role {
+	color: #6b7280;
+}
+
+.testimonial--divider {
+	position: relative;
+	top: 3px;
+	display: none;
+}
+
 @media (width > 800px) {
-	.testimonial--with-pic {
+	.testimonial-with-pic {
 		margin-top: 50px;
+		margin-bottom: 50px;
 	}
 
 	.testimonial--picture {
 		background: url('./assets/christina.png');
 		width: 384px;
 		height: 464px;
-
 		top: 0;
 		bottom: 0;
 		left: 50px;
@@ -473,7 +496,29 @@ button.button-danger {
 		margin: auto 0;
 	}
 
-	.testimonial--text-container {
+	.testimonial-with-pic--text-container {
 		margin: 80px 64px 80px 470px;
+	}
+
+	.testimonial {
+		background-position-y: 100px;
+	}
+
+	.testimonial--text-container {
+		text-align: center;
+		margin-left: 100px;
+		margin-right: 100px;
+	}
+
+	.testimonial .testimonial--name {
+		display: inline;
+	}
+
+	.testimonial .testimonial--role {
+		display: inline;
+	}
+
+	.testimonial--divider {
+		display: inline;
 	}
 }
