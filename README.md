@@ -9,6 +9,7 @@ The support for responsive design can be seen if the size of the browser's size.
 
 The Menu button is also implemented as a reusable React Component.
 
+
 ![Screen shot of the Component Library](./components.png)
 
 ## Technologies
