@@ -20,6 +20,6 @@ The Menu button is also implemented as a reusable React Component.
 
 ## Live link
 The Component Library is deployed here:
-[https://serenander-component-library.netlify.app/](https://serenander-component-library.netlify.app/)
+[https://serenander-component-library.netlify.app](https://serenander-component-library.netlify.app)
 
 Please feel free to click around and explore!
