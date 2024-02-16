@@ -5,7 +5,7 @@ This project contains a number of React Components shown on separate pages.
 
 The button menu at the top left is used to select Component Type: Badge, Banner, Card or Testimonial.
 
-The support for responsive design can be seen if the size of the browser's size. 
+The support for responsive design can be seen if the size of the browser is changed. 
 
 The Menu button is also implemented as a reusable React Component.
 
