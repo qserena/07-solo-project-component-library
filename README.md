@@ -19,6 +19,6 @@ The Menu button is also implemented as a reusable React Component.
 
 ## Live link
 Quizzical is deployed here:
-[https://toms-quizzicall.netlify.app/](https://toms-quizzical.netlify.app/))
+[https://serenander-component-library.netlify.app/](https://serenander-component-library.netlify.app/))
 
 Please feel free to click around and explore!
