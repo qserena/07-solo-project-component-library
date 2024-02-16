@@ -1,8 +1,24 @@
-# React + Vite
+# Component Library - An exercise in building reusable components
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description
+This project contains a number of React Components shown on separate pages.
 
-Currently, two official plugins are available:
+The button menu at the top left is used to select Component Type: Badge, Banner, Card or Testimonial.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+The support for responsive design can be seen if the size of the browser's size. 
+
+The Menu button is also implemented as a reusable React Component.
+
+![Screen shot of the Component Library](./components.png)
+
+## Technologies
+- HTML
+- CSS
+- JavaScript
+- React
+
+## Live link
+Quizzical is deployed here:
+[https://toms-quizzicall.netlify.app/](https://toms-quizzical.netlify.app/))
+
+Please feel free to click around and explore!
