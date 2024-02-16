@@ -9,7 +9,7 @@ The support for responsive design can be seen if the size of the browser is chan
 
 The Menu button is also implemented as a reusable React Component.
 
-<img src="./banners.png" alt="Screen shot of Components app." width="200px"/>
+<img src="./banners.png" alt="Screen shot of Components app." width="500px"/>
 
 ## Technologies
 - HTML
