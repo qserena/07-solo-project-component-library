@@ -11,8 +11,6 @@ The Menu button is also implemented as a reusable React Component.
 
 <br/>
 <img src="./banners.png" alt="Screenshot of Components app." width="600px"/>
-
-*Screenshot of the Components application*
 <br/>
 
 ## Technologies
